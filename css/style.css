@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -9,3 +9,81 @@
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.button {
+    background-color: #0061ff;
+    padding: 7px 20px;
+    color: #fff;
+}
+
+.centered {
+
+}
+
+/* /////// */
+/* header  */
+
+/* barra di navigazione */
+
+header {
+
+}
+
+#containerSfondoNav {
+    background-color: crimson;
+}
+
+nav {
+    height: 75px;
+    line-height: 75px;
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+    nav #navL {
+        float: left;
+    }
+    
+    nav #navR {
+        float: right;
+    }
+
+        #logo {
+            float: left;
+            margin-right: 20px;
+        }
+
+            #logo a  img {
+            vertical-align: middle;
+            }
+    
+        nav li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+
+            nav li a {
+            color: #000;
+            text-decoration: none;
+            vertical-align: middle;
+            }
+
+/* jumbotron */
+
+.jumbotron {
+    background-color: #b4d0e7;
+}
+
+    .jumbotron .centered {
+        width: 80%;
+        margin: 0 auto;
+    }
