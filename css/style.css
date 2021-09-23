@@ -10,6 +10,16 @@ body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 800;
+}
+
 h4 {
     font-size: 25px;
     font-weight: 800;
@@ -38,7 +48,6 @@ h5 {
     background-color: #0061ff;
     padding: 7px 20px;
     color: #fff;
-    text-decoration: none;
 }
 
     .btnWhite {
@@ -99,7 +108,6 @@ nav {
 
             nav li a {
             color: #000;
-            text-decoration: none;
             vertical-align: middle;
             }
 
@@ -159,14 +167,15 @@ nav {
 }
 
 .titoliFatturazione h2 {
-    font-size: 40px;
-    font-weight: 800;
     margin: 200px 0 50px;
 }
 
 .titoliFatturazione span {
     vertical-align: middle;
 }
+
+
+/* selettori radio  */
 
 .radio {
     display: inline-block;
@@ -183,16 +192,7 @@ nav {
     border-width: 1px;
 }
 
-.radioInside {
-    display: inline-block;
-    margin: 0 5px 5px;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #fff;
-    z-index: 10;
-}
-
+/* colonne dati  */
 
 .wrapperFatturazione .floatL {
     width: calc(100% / 3 - 60px);
@@ -233,26 +233,28 @@ nav {
             width: 30%;
         }
 
-        .tableData ul li {
-            margin-bottom: 10px;
+            .tableData ul li {
+                margin-bottom: 10px;
+            }
+
+    /* ultima colonna */
+
+    #lastCol {
+    margin: 60px 0;
+    }
+
+    #lastCol .tableHead {
+        width: 100%;
+    }
+
+    #lastCol .tableData {
+        width: 100%;
+        min-height: auto;
+    }
+
+        #lastCol .tableData h4 {
+            margin: 0;
         }
-
-#lastCol {
-margin: 60px 0;
-}
-
-#lastCol .tableHead {
-    width: 100%;
-}
-
-#lastCol .tableData {
-    width: 100%;
-    min-height: auto;
-}
-
-#lastCol .tableData h4 {
-    margin: 0;
-}
 
 /* sezione partner dropbox */
 
@@ -275,3 +277,22 @@ margin: 60px 0;
         #partner p {
             padding: 30px 0;
         }
+
+/* sezione features  */
+
+#features .floatL {
+    width: calc(100% / 3);
+    padding: 30px;
+}
+
+    #features img {
+        max-width: 100%;
+    }
+
+    #features img, h4, p {
+        margin-bottom: 30px;
+    }
+
+    #features .floatL a {
+        text-decoration: underline;
+    }
