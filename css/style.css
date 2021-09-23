@@ -151,16 +151,21 @@ nav {
 
 .radio {
     display: inline-block;
-    margin-right: 10px;
+    margin: 0 10px;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #0061ff;
 }
 
+
 .wrapperFatturazione .floatL {
-    width: 30%;
+    width: calc(100% / 3 - 60px);
 }
+
+    #middleColumn {
+        margin: 0 60px;
+    }
 
     .tableHead {
         text-align: center;
@@ -193,4 +198,8 @@ nav {
 
         .tableData .divider {
             width: 30%;
+        }
+
+        .tableData ul li {
+            margin-bottom: 10px;
         }
