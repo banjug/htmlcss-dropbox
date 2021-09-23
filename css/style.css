@@ -31,8 +31,17 @@ body {
     text-decoration: none;
 }
 
-.centered {
+.buttonWrapper {
+    margin-bottom: 30px;
+}
 
+.centered {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.divider {
+    border-bottom: 1px solid #000;
 }
 
 /* /////// */
@@ -106,10 +115,6 @@ nav {
                 margin-bottom: 30px;
             }
 
-            .jumbotron .floatL .buttonWrapper {
-                margin-bottom: 30px;
-            }
-
             .jumbotron .floatL span {
                 display: block;
                 margin-bottom: 30px;
@@ -126,3 +131,66 @@ nav {
             .jumbotron .floatR img {
                 max-width: 100%;
             }
+
+/* //////////// */
+/* main section */
+
+.titoliFatturazione {
+    margin-bottom: 40px;
+}
+
+.titoliFatturazione h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin: 200px 0 50px;
+}
+
+.titoliFatturazione span {
+    vertical-align: middle;
+}
+
+.radio {
+    display: inline-block;
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #0061ff;
+}
+
+.wrapperFatturazione .floatL {
+    width: 30%;
+}
+
+    .tableHead {
+        text-align: center;
+        border: 1px solid #000;
+        padding: 5px;
+    }
+
+    .tableData {
+        font-size: 15px;
+        border: 1px solid #000;
+        padding: 30px;
+    }
+
+        .tableData h4 {
+            font-size: 25px;
+            font-weight: 800;
+            margin: 20px 0;
+        }
+
+        .tableData h5 {
+            font-size: 16px;
+            margin: 20px 0;
+            font-weight: 800;
+        }
+
+        .tableData span {
+            margin: 20px 0;
+            display: block;
+        }
+
+        .tableData .divider {
+            width: 30%;
+        }
