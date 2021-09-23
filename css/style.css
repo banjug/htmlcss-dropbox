@@ -10,6 +10,16 @@ body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
+h4 {
+    font-size: 25px;
+    font-weight: 800;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 800;
+}
+
 .clearfix::after {
     content: "";
     display: table;
@@ -30,6 +40,12 @@ body {
     color: #fff;
     text-decoration: none;
 }
+
+    .btnWhite {
+        background-color: #fff;
+        border: 1px solid #000;
+        color: #000;
+    }
 
 .buttonWrapper {
     margin-bottom: 30px;
@@ -135,6 +151,9 @@ nav {
 /* //////////// */
 /* main section */
 
+
+/* sezione piani fatturazione  */
+
 .titoliFatturazione {
     margin-bottom: 40px;
 }
@@ -185,16 +204,8 @@ nav {
         min-height: 400px;
     }
 
-        .tableData h4 {
-            font-size: 25px;
-            font-weight: 800;
+        .tableData h4, h5 {
             margin: 20px 0;
-        }
-
-        .tableData h5 {
-            font-size: 16px;
-            margin: 20px 0;
-            font-weight: 800;
         }
 
         .tableData span {
@@ -226,3 +237,25 @@ margin: 60px 0;
 #lastCol .tableData h4 {
     margin: 0;
 }
+
+/* sezione partner dropbox */
+
+#partner {
+    margin: 100px auto;
+}
+
+#partner .floatL {
+    width: 50%;
+}
+
+    #partner div:nth-child(2) {
+        padding: 60px 0 60px 60px;
+    }
+
+        #partner img {
+            max-width: 100%;
+        }
+
+        #partner p {
+            padding: 30px 0;
+        }
