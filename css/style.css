@@ -16,10 +16,19 @@ body {
     clear: both;
 }
 
+.floatL {
+    float: left;
+}
+
+.floatR {
+    float: right;
+}
+
 .button {
     background-color: #0061ff;
     padding: 7px 20px;
     color: #fff;
+    text-decoration: none;
 }
 
 .centered {
@@ -36,7 +45,7 @@ header {
 }
 
 #containerSfondoNav {
-    background-color: crimson;
+    background-color: #fff;
 }
 
 nav {
@@ -48,14 +57,6 @@ nav {
     font-size: 14px;
     font-weight: 600;
 }
-
-    nav #navL {
-        float: left;
-    }
-    
-    nav #navR {
-        float: right;
-    }
 
         #logo {
             float: left;
@@ -86,4 +87,42 @@ nav {
     .jumbotron .centered {
         width: 80%;
         margin: 0 auto;
+        padding: 80px 20px 0;
     }
+
+        .jumbotron h1 {
+            font-size: 65px;
+            font-weight: 800;
+            margin-bottom: 30px;
+        }
+
+        .jumbotron .floatL {
+            width: 30%;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+            .jumbotron .floatL p {
+                margin-bottom: 30px;
+            }
+
+            .jumbotron .floatL .buttonWrapper {
+                margin-bottom: 30px;
+            }
+
+            .jumbotron .floatL span {
+                display: block;
+                margin-bottom: 30px;
+            }
+
+            .fa-arrow-down {
+                font-size: 50px;
+            }
+
+        .jumbotron .floatR {
+            max-width: 70%;
+        }
+
+            .jumbotron .floatR img {
+                max-width: 100%;
+            }
