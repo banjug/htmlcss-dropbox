@@ -209,3 +209,20 @@ nav {
         .tableData ul li {
             margin-bottom: 10px;
         }
+
+#lastCol {
+margin: 60px 0;
+}
+
+#lastCol .tableHead {
+    width: 100%;
+}
+
+#lastCol .tableData {
+    width: 100%;
+    min-height: auto;
+}
+
+#lastCol .tableData h4 {
+    margin: 0;
+}
