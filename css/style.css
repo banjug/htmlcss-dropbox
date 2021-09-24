@@ -69,8 +69,8 @@ h5 {
     border-bottom: 1px solid #000;
 }
 
-/* /////// */
-/* header  */
+/*//////////*/
+/*  header  */
 
 /* barra di navigazione */
 
@@ -161,7 +161,7 @@ nav {
                 max-width: 100%;
             }
 
-/* //////////// */
+/*//////////////*/
 /* main section */
 
 
@@ -427,4 +427,38 @@ nav {
         line-height: 20px;
         vertical-align: middle;
         margin: 20px;
+    }
+
+
+/*//////////////////*/
+/*  sezione footer  */
+
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 50px 0;
+}
+
+    footer .centered {
+        width: 85%;
+    }
+
+    footer .floatL {
+        width: calc(100% / 5);
+    }
+
+    footer a {
+        color: #fff;
+    }
+
+    footer li {
+        list-style-type: none;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    footer .divider {
+        width: 10%;
+        border-color: #ffffff;
+        margin: 100px 0 30px;
     }
