@@ -195,7 +195,7 @@ nav {
 /* colonne dati  */
 
 .wrapperFatturazione .floatL {
-    width: calc(100% / 3 - 60px);
+    width: calc(100% / 3 - 40px);
 }
 
     #middleColumn {
