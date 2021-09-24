@@ -304,6 +304,10 @@ nav {
 
 /* sezione team globali */
 
+#teams {
+    margin-top: 200px;
+}
+
 #teams .centered {
     margin-bottom: 50px;
 }
@@ -387,3 +391,19 @@ nav {
         #rbr {
             background-color: #ffd830;
         }
+
+/* cta prova gratuita */
+
+#cta {
+    background-color: #b4d0e7;
+    padding: 100px 0;
+}
+
+    #cta .floatL {
+        width: 50%;
+        color: #61082b;
+    }
+
+    #cta .button {
+        border: none;
+    }
