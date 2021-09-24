@@ -80,6 +80,10 @@ header {
 
 #containerSfondoNav {
     background-color: #fff;
+    border-bottom: 1px solid #0061ff;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
 }
 
 nav {
@@ -115,6 +119,7 @@ nav {
 
 .jumbotron {
     background-color: #b4d0e7;
+    padding-top: 75px;
 }
 
     .jumbotron .centered {
@@ -296,3 +301,6 @@ nav {
     #features .floatL a {
         text-decoration: underline;
     }
+
+/* sezione team globali */
+
