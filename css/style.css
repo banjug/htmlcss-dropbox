@@ -453,17 +453,12 @@ nav {
         margin: 10px 0;
     }
 
-    .question p {
-        font-size: 13px;
-    }
-
     #faq h2 {
         margin-bottom: 60px;
     }
 
     #faq h5 {
         display: inline-block;
-        font-size: 13px;
     }
 
     #faq .fa-chevron-down {
@@ -511,7 +506,7 @@ footer {
 
     footer li {
         list-style-type: none;
-        font-size: 11px;
+        font-size: 14px;
         margin-bottom: 10px;
     }
 
