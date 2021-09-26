@@ -15,6 +15,10 @@ a {
     color: #000;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 h2 {
     font-size: 40px;
     font-weight: 800;
@@ -445,8 +449,12 @@ nav {
     margin: 100px auto;
 }
 
-    #faq div div {
+    .question {
         margin: 10px 0;
+    }
+
+    .question p {
+        font-size: 13px;
     }
 
     #faq h2 {
@@ -455,13 +463,28 @@ nav {
 
     #faq h5 {
         display: inline-block;
+        font-size: 13px;
     }
 
-    #faq i {
+    #faq .fa-chevron-down {
         float: right;
         line-height: 20px;
         vertical-align: middle;
         margin: 20px;
+    }
+
+    .accordion {
+        height: 0;
+        display: none;
+    }
+
+    .question:hover .accordion {
+        height: 100%;
+        display: block;
+    }
+
+    .question:hover .fa-chevron-down {
+        transform: rotate(180deg);
     }
 
 
@@ -488,7 +511,7 @@ footer {
 
     footer li {
         list-style-type: none;
-        font-size: 14px;
+        font-size: 11px;
         margin-bottom: 10px;
     }
 
