@@ -364,12 +364,16 @@ nav {
         text-decoration: underline;
     }
 
+#teams > .clearfix {
+}
+
 #teams aside {
     width: 25%;
 }
 
     #statementCol {
         width: 50%;
+        height: 400px;
         background-color: #f5f5f5;
         padding: 60px;
         overflow: scroll;
@@ -387,9 +391,9 @@ nav {
 
     #teams aside .floatL {
         width: 50%;
-        height: inherit;
+        height: 200px;
         position: relative;
-        aspect-ratio: 1 / 1;
+        /* aspect-ratio: 1 / 1; */
     }
     
         #teams aside div img {
