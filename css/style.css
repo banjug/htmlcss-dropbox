@@ -87,6 +87,7 @@ h5 {
 #containerSfondoNav {
     background-color: #fff;
     border-bottom: 1px solid #b4d0e7;
+    margin-bottom: 3px;
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -493,6 +494,7 @@ nav {
     .accordion {
         height: 0;
         display: none;
+        color: #808080;
     }
 
     .question:hover .accordion {
@@ -544,5 +546,10 @@ footer {
 
 #langSelector {
     color: #808080;
-    font-size: 13px
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#langSelector:hover {
+    color: #e6e6e6;
 }
