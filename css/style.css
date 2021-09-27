@@ -133,6 +133,43 @@ nav {
                 border-bottom: none;
             }
 
+/* dropdown menu  */
+
+#navSupport {
+    position: relative;
+}
+
+#navSupport:hover .dropdown {
+    display: block;
+
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    background-color: #ffffff;
+    width: 250px;
+}
+
+    .dropdown li {
+        margin: 0;
+        line-height: 40px;
+        display: block;
+    }
+
+        .dropdown li a {
+            padding: 10px 20px;
+            margin: 0;
+        }
+
+    .dropdown li:hover {
+        background-color: #bfbfbf;
+        border: none;
+    }
+
+            
 /* jumbotron */
 
 .jumbotron {
