@@ -52,6 +52,7 @@ h5 {
     background-color: #0061ff;
     padding: 7px 20px;
     color: #fff;
+    text-align: center;
 }
 
     .btnWhite {
@@ -274,6 +275,12 @@ nav {
             .billingHighlights span.fa-li {
                 color: #0061ff;
             }
+
+            .wrapperFatturazione .button {
+                display: inline-block;
+                width: 100%;
+            }
+            
 
     /* ultima colonna */
 
