@@ -279,10 +279,6 @@ nav {
         min-height: 800px;
     }
 
-    .dataPricing {
-        min-height: 400px;
-    }
-
         .tableData h4, h5 {
             margin: 20px 0;
         }
@@ -294,6 +290,7 @@ nav {
 
         .tableData .divider {
             width: 30%;
+            margin-top: 60px;
         }
 
         .tableData span a {
@@ -305,21 +302,13 @@ nav {
             color: #3984ff;
         }
 
-        .wrapperFatturazione ul {
-            margin-bottom: 30px;
-        }
-
             .tableData ul li {
-                margin-bottom: 10px;
+                margin: 10px 0 0 22px;
             }
 
 
             .fa-ul {
-                margin: 0;
-            }
-
-            .fa-ul li {
-                margin-left: 22px;
+                margin: 0 0 30px;
             }
 
             span.fa-li {
